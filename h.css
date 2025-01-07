@@ -405,7 +405,7 @@ body {
 	padding: 3px 4px 3px 3px;
 	background-color: rgba(8, 86, 86, 0.321);
 	font-family: 'roboto';
-	font-size:  clamp(0.7rem, 2vw, 0.9rem);
+	font-size:  7rem;
 	font-weight: bold;
 	z-index: 1;
 	margin-top: auto;       /* Push the text to the bottom of the container */
