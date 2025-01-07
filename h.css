@@ -392,8 +392,8 @@ body {
 	flex-direction: column;
 	align-items: center;
     position: fixed; /* Fixed to the viewport */
-    bottom: 1.1vh; /* Distance from the bottom of the page */
-    left: 3vw; /* Distance from the right side of the page */
+    bottom: 1.2vh; /* Distance from the bottom of the page */
+    left: 4vw; /* Distance from the right side of the page */
     width: auto; /* Ensure parent has boundaries */
     height: auto;
 	cursor: pointer;
@@ -405,7 +405,7 @@ body {
 	padding: 3px 4px 3px 3px;
 	background-color: rgba(8, 86, 86, 0.321);
 	font-family: 'roboto';
-	font-size:  0.75rem;
+	font-size:  0.7rem;
 	font-weight: bold;
 	z-index: 1;
 	margin-top: auto;       /* Push the text to the bottom of the container */
