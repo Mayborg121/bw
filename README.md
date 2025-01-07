@@ -1,5 +1,5 @@
 ## Birthday Wishing Webpage
-**Createdd by Mayur Borgude**
+**Created by Mayur Borgude**
 
 ## Screenshots
 
