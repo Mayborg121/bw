@@ -370,15 +370,15 @@ body {
 }
 #create{
 	text-decoration: none;
-	padding: 3px;
+	padding: 3px 4px 3px 3px;
 	background-color: rgba(8, 86, 86, 0.321);
 	font-family: 'roboto';
 	font-size: 0.7rem;
 	font-weight: bold;
 	z-index: 1;
 	margin-top: auto;       /* Push the text to the bottom of the container */
-    color: rgba(72, 240, 224, 0.579); /* Set text color */
-    text-align: center;     /* Center align the text */
+    	color: rgba(72, 240, 224, 0.579); /* Set text color */
+    	text-align: center;     /* Center align the text */
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	border-radius: 3px; 
 }
