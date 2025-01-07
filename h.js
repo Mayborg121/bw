@@ -145,3 +145,45 @@ const quoteContainer = document.getElementById('slider');
       setInterval(displayQuote, 6000); // Change quote every 3 seconds
     }, 5000);
 
+
+
+
+
+
+
+//fullscreen mode.
+
+
+    const fullscreenButton = document.getElementById('fullscreenButton');
+
+    fullscreenButton.addEventListener('click', () => {
+      // Check if we're currently in fullscreen
+      if (!document.fullscreenElement) {
+        // Enter fullscreen
+        if (document.documentElement.requestFullscreen) {
+          document.documentElement.requestFullscreen();
+        } else if (document.documentElement.webkitRequestFullscreen) {
+          document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.msRequestFullscreen) {
+          document.documentElement.msRequestFullscreen();
+        }
+        fullscreenButton.textContent = "X-FullScrn"; // Update button text
+      } else {
+        // Exit fullscreen
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen();
+        }
+        fullscreenButton.textContent = "FullScreen"; // Update button text
+      }
+    });
+
+    // Update button text when the user exits fullscreen with the Esc key
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenButton.textContent = "Fullscreen";
+      }
+    });
