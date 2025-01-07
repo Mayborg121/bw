@@ -64,6 +64,7 @@ function startCountdown(targetDate) {
       }
       else{
         document.getElementById('countdown').style.display = 'flex';
+        document.getElementById('flscrn').style.display = 'flex';
         // Calculate time components
         let days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
         let hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
