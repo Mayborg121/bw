@@ -388,7 +388,7 @@ body {
 
 
 #flscrn {
-    display: flex;
+    display: none;
 	flex-direction: column;
 	align-items: center;
     position: fixed; /* Fixed to the viewport */
