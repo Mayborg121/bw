@@ -57,6 +57,8 @@ function startCountdown(targetDate) {
       if (timeRemaining <= 0) {
         clearInterval(interval);
         //console.log("Countdown finished!");
+    document.getElementById('countdown').style.display = 'none';
+        document.getElementById('flscrn').style.display = 'none';
         
         startGreetings();
 
