@@ -96,6 +96,11 @@ function startGreetings(){
   document.getElementById('greetings').style.display = 'flex';
   fname.textContent = String(n);
   wisher.textContent = String("Yours, "+m+".");
+  // Start displaying quotes
+    setTimeout(() => {
+      displayQuote(); // Show the first quote
+      setInterval(displayQuote, 6000); // Change quote every 3 seconds
+    }, 5000);
 }
 
 
@@ -141,12 +146,7 @@ const quoteContainer = document.getElementById('slider');
       quoteDiv.textContent = quote;
       quoteContainer.appendChild(quoteDiv);
     });
-
-    // Start displaying quotes
-    setTimeout(() => {
-      displayQuote(); // Show the first quote
-      setInterval(displayQuote, 6000); // Change quote every 3 seconds
-    }, 5000);
+
 
 
 
