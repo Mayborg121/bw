@@ -28,6 +28,7 @@ body {
 	margin: 0;
 	overflow: hidden;
 	background-color: #201f20;
+	-webkit-tap-highlight-color: transparent;
 }
 
 #preloader {
